@@ -1,0 +1,9 @@
+.tododetail {
+    width: 600px;
+    margin: auto;
+    text-align:center;
+}
+.todotext {
+    margin: 40px auto;
+    font-size: 18px;
+}

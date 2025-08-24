@@ -1,0 +1,145 @@
+.services .card {
+  background-color: #fff;
+  color: black;
+  padding: 12px 16px;
+  margin: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.services .card-dark {
+  background-color: #272727;
+  color: #FFf;
+  padding: 12px 16px;
+  margin: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about .title::after,
+.services .title::after,
+.contact .title::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  background-color: gold;
+  width: 100%;
+  height: 3px;
+}
+
+.services .card .chip,
+.services .card-dark .chip {
+  padding: 4px 10px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.services .card .chip.completed,
+.services .card-dark .chip.completed {
+  background-color: gold;
+}
+
+.services .card .chip.pending,
+.services .card-dark .chip.pending {
+  background-color: crimson;
+}
+
+.pagination {
+  margin: 24px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.current-page {
+  font-size: 24px;
+}
+
+.btn-red {
+  background-color: crimson;
+  color: #fff;
+  padding: 8px 24px;
+  border: none;
+  border-radius: 8px;
+  border: 2px solid crimson;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+
+.btn-red:hover {
+  background-color: transparent;
+  color: crimson;
+  padding: 8px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 2px solid crimson;
+}
+
+.btn-red-disable {
+  pointer-events: none;
+  cursor: not-allowed;
+  background-color: #966670;
+  color: #fff;
+  padding: 8px 24px;
+  border: none;
+  border-radius: 8px;
+  border: 2px solid #966670;
+  font-size: 16px;
+  transition: 0.3s all;
+  opacity: 0.65;
+}
+
+.btn-blue {
+  background-color: gold;
+  color: #fff;
+  padding: 8px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s all;
+  border: 2px solid gold;
+}
+
+.btn-blue:hover {
+  background-color: transparent;
+  color: gold;
+  padding: 8px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s all;
+  border: 2px solid gold;
+}
+
+.btn-blue-disable {
+  pointer-events: none;
+  cursor: not-allowed;
+  background-color: #b89d40;
+  /* a duller shade of gold */
+  color: #fff;
+  padding: 8px 24px;
+  border: none;
+  border-radius: 8px;
+  border: 2px solid #b89d40;
+  font-size: 16px;
+  transition: 0.3s all;
+  opacity: 0.65;
+}
+
+.empty-todos-list {
+  margin: 24px 0 0;
+  text-align: center;
+  width: 100%;
+  font-size: 1.2rem;
+  font-weight: 500;
+}

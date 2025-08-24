@@ -1,0 +1,30 @@
+.home {
+  background-color: #e4e4e4;
+  transition: 0.3s all;
+  /* min-height: 100vh; */
+  padding: 30px 0;
+}
+
+.home-dark {
+  background-color: #393939;
+  min-height: 100vh;
+  color: #fff;
+  transition: 0.3s all;
+  padding: 30px 0;
+}
+
+.home .todo {
+  max-width: 1200px;
+  background-color: #ececec;
+  box-shadow: 0 .5rem 1rem #00000026;
+  margin: auto;
+  transition: 0.3s all;
+}
+
+.home-dark .todo-dark {
+  max-width: 1200px;
+  background-color: #272727;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+  margin: auto;
+  transition: 0.3s all;
+}
