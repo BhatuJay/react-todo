@@ -18,13 +18,13 @@
 ## 🚀 Live Demo  
 
 <p align="center">
-  <a href="https://your-todo-app-link.vercel.app" target="_blank">
+  <a href="https://react-todo-chi-snowy.vercel.app" target="_blank">
     <img src="public/favicon.svg" alt="Live Demo" width="200" />
   </a>
 </p>
 
 <p align="center">
-  👉 <a href="https://your-todo-app-link.vercel.app" target="_blank">Click here or LOGO to try Todo App</a>
+  👉 <a href="https://react-todo-chi-snowy.vercel.app" target="_blank">Click here or LOGO to try Todo App</a>
 </p>
 
 ---

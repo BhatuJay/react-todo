@@ -12,7 +12,7 @@ export function Footer() {
                     <a href="https://github.com/BhatuJay" target="_blank"><i className="bx bxl-github github"></i></a>
                 </div>
                 <div>
-                    <small>Copyright &copy; 2025 React Posts aka BHATU JAY 2025 <br />Final Project – Admin/User Post Manager</small>
+                    <small>Copyright &copy; 2025 React Todo aka BHATU JAY 2025 <br />Project – User Todo Manager</small>
                 </div>
             </div>
         </footer>
