@@ -72,8 +72,8 @@
 
 ```bash
 # Clone the repo
-git clone https://github.com/BhatuJay/todo-app.git
-cd todo-app
+git clone https://github.com/BhatuJay/react-todo.git
+cd react-todo
 
 # Install dependencies
 npm install
